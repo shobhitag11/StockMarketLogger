@@ -1,0 +1,32 @@
+{
+    "stocks": [
+        {
+            "symbol": "RELIANCE",
+            "name": "Reliance Industries Ltd"
+        },
+        {
+            "symbol": "TCS",
+            "name": "Tata Consultancy Services Ltd"
+        },
+        {
+            "symbol": "INFY",
+            "name": "Infosys Ltd"
+        },
+        {
+            "symbol": "HDFCBANK",
+            "name": "HDFC Bank Ltd"
+        },
+        {
+            "symbol": "ICICIBANK",
+            "name": "ICICI Bank Ltd"
+        },
+        {
+            "symbol": "LIC",
+            "name": "Life Insurace Corporation of India"
+        },
+        {
+            "symbol": "VBL",
+            "name": "Varun Beverage"
+        }
+    ]
+}
