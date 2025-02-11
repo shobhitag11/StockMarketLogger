@@ -23,8 +23,6 @@ The Stock Portfolio Manager is a web application built using Streamlit that allo
 
 3. **config.py**: Contains file paths for storing stock data, transaction logs, and bank details.
 
-4. **login.py**: Manages user authentication, including login and registration. (Ignored as per your request)
-
 ### Detailed Explanation
 
 #### app.py
