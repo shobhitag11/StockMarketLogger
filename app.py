@@ -62,6 +62,28 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# Footer with developer details
+st.markdown("""
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f1f2f6;
+        text-align: center;
+        padding: 1px;
+        font-size: 10px;
+        color: #555;
+    }
+    </style>
+    <div class="footer">
+        <p>Developed by <a href="https://iamshobhitagarwal.medium.com/" target="_blank">Shobhit Agarwal</a> | 
+        <a href="https://github.com/shobhitag11" target="_blank">GitHub</a></p>
+    </div>
+""", unsafe_allow_html=True)
+
+
 # Initialize or load stocks list from JSON
 def load_stocks():
     """
@@ -387,13 +409,6 @@ def stock_operations():
                 use_container_width=True,
                 height=300,
                 hide_index=True
-            )
-
-            st.download_button(
-                label="Download Transaction Log as CSV",
-                data=filtered_logs.to_csv(index=False),
-                file_name="transaction_log.csv",
-                mime="text/csv"
             )
         else:
             st.info("No transactions logged yet. Start by buying or selling stocks!")
